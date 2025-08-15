@@ -15,6 +15,19 @@ class AvatarISLApp extends StatelessWidget {
     );
   }
 }
+// void main() {
+//   runApp(AvatarISLApp());
+// }
+
+// class AvatarISLApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       home: ISLConverter(),
+//     );
+//   }
+// }
 
 class ISLConverter extends StatefulWidget {
   @override
