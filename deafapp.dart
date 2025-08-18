@@ -2,19 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:rive/rive.dart';
 
-void main() {
-  runApp(AvatarISLApp());
-}
-
-class AvatarISLApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: ISLConverter(),
-    );
-  }
-}
 // void main() {
 //   runApp(AvatarISLApp());
 // }
@@ -28,6 +15,19 @@ class AvatarISLApp extends StatelessWidget {
 //     );
 //   }
 // }
+void main() {
+  runApp(AvatarISLApp());
+}
+
+class AvatarISLApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: ISLConverter(),
+    );
+  }
+}
 
 class ISLConverter extends StatefulWidget {
   @override
