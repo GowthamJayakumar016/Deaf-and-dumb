@@ -84,7 +84,30 @@ class _ISLConverterState extends State<ISLConverter> {
     _riveArtboard.addController(_controller);
   }
 
-  @override
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(title: Text("Avatar-Based ISL Conversion")),
+//       body: Column(
+//         mainAxisAlignment: MainAxisAlignment.center,
+//         children: [
+//           _riveArtboard != null
+//               ? Container(height: 300, child: Rive(artboard: _riveArtboard))
+//               : CircularProgressIndicator(),
+//           Padding(
+//             padding: const EdgeInsets.all(16.0),
+//             child: Text(_text, style: TextStyle(fontSize: 18)),
+//           ),
+//           FloatingActionButton(
+//             onPressed: _isListening ? _stopListening : _startListening,
+//             child: Icon(_isListening ? Icons.mic_off : Icons.mic),
+//           ),
+//         ],
+//       ),
+//     );
+//   }
+// }
+    @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Avatar-Based ISL Conversion")),
