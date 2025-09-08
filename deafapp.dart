@@ -1,7 +1,10 @@
+// import 'package:flutter/material.dart';
+// import 'package:speech_to_text/speech_to_text.dart' as stt;
+// import 'package:rive/rive.dart';
+
 import 'package:flutter/material.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:rive/rive.dart';
-
 
 void main() {
   runApp(AvatarISLApp());
